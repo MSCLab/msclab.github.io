@@ -3,7 +3,7 @@
 
 <url>
     <loc>https://msclab.github.io/index.html</loc>
-    <lastmod>2021-11-30</lastmod>
+    <lastmod>2021-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
@@ -14,19 +14,49 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://msclab.github.io/post/menu3_copy/index.html</loc>
+    <lastmod>2021-11-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://msclab.github.io/menu4/index.html</loc>
+    <lastmod>2021-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://msclab.github.io/menu2/index.html</loc>
     <lastmod>2021-11-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://msclab.github.io/menu1/index.html</loc>
+    <loc>https://msclab.github.io/post/menu4/index.html</loc>
     <lastmod>2021-11-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://msclab.github.io/menu1/index.html</loc>
+    <lastmod>2021-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://msclab.github.io/menu3/index.html</loc>
+    <lastmod>2021-11-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://msclab.github.io/post/menu1_copy/index.html</loc>
+    <lastmod>2021-11-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://msclab.github.io/post/menu2_copy/index.html</loc>
     <lastmod>2021-11-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

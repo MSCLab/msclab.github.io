@@ -19,16 +19,17 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>A scientific notion.</p>
+    <p>A scientific notion</p>
   </div>
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item " href="/">Home</a>
     <a class="sidebar-nav-item active" href="/menu1/">Code blocks</a>
     <a class="sidebar-nav-item " href="/menu2/">More goodies</a>
     <a class="sidebar-nav-item " href="/menu3/">Tags</a>
+    <a class="sidebar-nav-item " href="/menu4/">Blog</a>
   </nav>
   <div class="sidebar-item">
-    <p>&copy; MSC Lab.</p>
+    <p>&copy; MSC Lab</p>
   </div>
 </div>
 
@@ -55,12 +56,10 @@ content to avoid any CSS collisions with our real content. -->
 <p>Indeed, what happens is that the code block gets saved as a script which then gets executed. This also allows for that block to not be re-executed every time you change something <em>else</em> on the page.</p>
 <p>Here&#39;s a simple example &#40;change values in <code>a</code> to see the results being live updated&#41;:</p>
 <pre><code class="language-julia">using LinearAlgebra
-a &#61; &#91;1, 2, 3, 3, 4, 5, 2, 2&#93;
-@show dot&#40;a, a&#41;
-println&#40;dot&#40;a, a&#41;&#41;</code></pre>
+a &#61; &#91;1, 2, 3&#93;
+@show dot&#40;a, a&#41;</code></pre>
 <p>You can now show what this would look like:</p>
-<pre><code class="plaintext code-output">dot(a, a) = 72
-72
+<pre><code class="plaintext code-output">dot(a, a) = 14
 </code></pre>
 <p><strong>Notes</strong>:</p>
 <ul>
@@ -111,7 +110,7 @@ end</code></pre> </p>
 <p>Using this approach with the <code>generate_results.jl</code> file also makes sure that all the code on your website works and that all results match the code which makes maintenance easier.</p>
 <div class="page-foot">
   <div class="copyright">
-    &copy; MSC Lab. Last modified: November 30, 2021.
+    &copy; MSC Lab. Last modified: December 01, 2021.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->
