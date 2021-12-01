@@ -21,9 +21,8 @@ Here's a simple example (change values in `a` to see the results being live upda
 
 ```julia:./exdot.jl
 using LinearAlgebra
-a = [1, 2, 3, 3, 4, 5, 2, 2]
+a = [1, 2, 3]
 @show dot(a, a)
-println(dot(a, a))
 ```
 
 You can now show what this would look like:

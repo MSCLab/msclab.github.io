@@ -4,6 +4,7 @@ Add here global page variables to use throughout your website.
 +++
 author = "MSC Lab"
 mintoclevel = 2
+maxtoclevel = 3
 
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
