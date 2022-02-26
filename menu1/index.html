@@ -7,45 +7,25 @@
    <link rel="stylesheet" href="/libs/highlight/github.min.css">
    
   <link rel="stylesheet" href="/css/franklin.css">
-<link rel="stylesheet" href="/css/poole_lanyon.css">
-<link rel="stylesheet" href="/css/adjust.css">
-<link rel="icon" href="/assets/favicon.png">
-
-   <title>Code blocks</title>  
+  <link rel="stylesheet" href="/css/basic.css">
+  <link rel="icon" href="/assets/favicon.png">
+   <title>Research</title>  
 </head>
 <body>
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+  <header>
+<div class="blog-name"><a href="/">MSC</a></div>
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/menu1/">Research</a></li>
+    <li><a href="/menu2/">Teaching</a></li>
+    <li><a href="/menu3/">Codes</a></li>
+    <li><a href="/menu4/">Outreach</a></li>
+  </ul>
+  <img src="/assets/hamburger.svg" id="menu-icon">
+</nav>
+</header>
 
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>A scientific notion</p>
-  </div>
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item " href="/">Home</a>
-    <a class="sidebar-nav-item active" href="/menu1/">Code blocks</a>
-    <a class="sidebar-nav-item " href="/menu2/">More goodies</a>
-    <a class="sidebar-nav-item " href="/menu3/">Tags</a>
-    <a class="sidebar-nav-item " href="/menu4/">Blog</a>
-  </nav>
-  <div class="sidebar-item">
-    <p>&copy; MSC Lab</p>
-  </div>
-</div>
-
-<!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-content to avoid any CSS collisions with our real content. -->
-<div class="wrap">
-  <div class="masthead">
-    <div class="container">
-      <h3 class="masthead-title">
-        <a href="/" title="Home">流れ</a>
-        <small>Mathematical and Scientific Computing</small>
-      </h3>
-    </div>
-  </div>
-
-  <div class="container content">
 
 <!-- Content appended here -->
 <div class="franklin-content">
@@ -56,10 +36,12 @@ content to avoid any CSS collisions with our real content. -->
 <p>Indeed, what happens is that the code block gets saved as a script which then gets executed. This also allows for that block to not be re-executed every time you change something <em>else</em> on the page.</p>
 <p>Here&#39;s a simple example &#40;change values in <code>a</code> to see the results being live updated&#41;:</p>
 <pre><code class="language-julia">using LinearAlgebra
-a &#61; &#91;1, 2, 3&#93;
-@show dot&#40;a, a&#41;</code></pre>
+a &#61; &#91;1, 2, 3, 3, 4, 5, 2, 2&#93;
+@show dot&#40;a, a&#41;
+println&#40;dot&#40;a, a&#41;&#41;</code></pre>
 <p>You can now show what this would look like:</p>
-<pre><code class="plaintext code-output">dot(a, a) = 14
+<pre><code class="plaintext code-output">dot(a, a) = 72
+72
 </code></pre>
 <p><strong>Notes</strong>:</p>
 <ul>
@@ -88,7 +70,7 @@ end</code></pre>
 <p>You can also hide lines &#40;that will be executed nonetheless&#41;:</p>
 <pre><code class="language-julia">using Random
 @show randn&#40;2&#41;</code></pre>
-<pre><code class="plaintext code-output">randn(2) = [0.2972879845354616, 0.3823959677906078]
+<pre><code class="plaintext code-output">randn(2) = [-0.07058313895389791, 0.5314767537831963]
 </code></pre>
 <h2 id="including_scripts"><a href="#including_scripts" class="header-anchor">Including scripts</a></h2>
 <p>Another approach is to include the content of a script that has already been executed. This can be an alternative to the description above if you&#39;d like to only run the code once because it&#39;s particularly slow or because it&#39;s not Julia code. For this you can use the <code>\input</code> command specifying which language it should be tagged as:</p>
@@ -109,19 +91,14 @@ end</code></pre> </p>
 <p><strong>Note</strong>: paths specification matters, see <a href="https://tlienart.github.io/franklindocs/code/index.html#more_on_paths">the docs</a> for details.</p>
 <p>Using this approach with the <code>generate_results.jl</code> file also makes sure that all the code on your website works and that all results match the code which makes maintenance easier.</p>
 <div class="page-foot">
-  <div class="copyright">
-    &copy; MSC Lab. Last modified: December 01, 2021.
-  </div>
+    © 2022 MSC. Last modified: February 26, 2022.
 </div>
 </div><!-- CONTENT ENDS HERE -->
-      </div>  <!-- div: content container -->
-    </div> <!-- wrap -->
     
     
         <script src="/libs/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
 
     
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
   </body>
 </html>
