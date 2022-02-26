@@ -2,9 +2,8 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-author = "MSC Lab"
+author = "MSC"
 mintoclevel = 2
-maxtoclevel = 3
 
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
@@ -14,8 +13,8 @@ ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "MSCLab"
-website_descr = "Mathematical and Scientific Computing"
+website_title = "Franklin Template"
+website_descr = "Example website using Franklin"
 website_url   = "https://msclab.github.io/"
 +++
 
